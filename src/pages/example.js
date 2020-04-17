@@ -173,7 +173,7 @@ function Example(){
         <p> Am I a Gradiot , Yes. Proud of it, <b>"No"</b>. I second the fact that college wasted my money and my time. My advice would be until and unless you are from some big shot college, college does not matter. 
         Rather It's better to invest time and money in your skills if you are a techie or you wanna be a techie. Join an online Bootcamp and regularly attend meetups and conferences. Nobody asked my marks in College but some companies did see my college. Those companies were actually not even worth it and would have never allowed me to learn and grow freely. Plus, I believe that if we have a portfolio with some cool projects that we are eligible enough to ask the right amount of money for the work we are supposed to do. 
         <br/>
-        <a href="/">Link to post ↗</a><br/>
+        <a href="https://twitter.com/reeversedev/status/1250700784892706818">Link to post ↗</a><br/>
         <div className={classes.imgSec}>
             <div>
             <div className={classes.aligCen}><img src={Prateek} alt="Prateek" className={classes.exImage}/></div>
