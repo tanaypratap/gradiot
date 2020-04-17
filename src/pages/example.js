@@ -132,7 +132,7 @@ function Example(){
             <a href="https://twitter.com/tanaypratap/status/1250300565369671680">Link to post ↗</a><br/>
             <div className={classes.imgSec}>
             <div>
-            <div className={classes.aligCen}><img src={Tanay} alt="Tanay" className={classes.exImage}/></div>
+            {/* <div className={classes.aligCen}><img src={Tanay} alt="Tanay" className={classes.exImage}/></div> */}
             <br/>
             <div><b>~Tanay Pratap-Engineer at Microsoft India</b></div>
             </div>
@@ -162,7 +162,7 @@ function Example(){
           <a href="https://twitter.com/VarunMayya/status/1250484795840184321">Link to post ↗</a><br/>
           <div className={classes.imgSec}>
             <div>
-            <div className={classes.aligCen}><img src={Varun} alt="Varun" className={classes.exImage}/></div>
+            {/* <div className={classes.aligCen}><img src={Varun} alt="Varun" className={classes.exImage}/></div> */}
             <br/>
             <div><b>~Varun Mayya - Founder and CEO at Avalon Labs</b></div>
             </div>
@@ -173,10 +173,10 @@ function Example(){
         <p> Am I a Gradiot , Yes. Proud of it, <b>"No"</b>. I second the fact that college wasted my money and my time. My advice would be until and unless you are from some big shot college, college does not matter. 
         Rather It's better to invest time and money in your skills if you are a techie or you wanna be a techie. Join an online Bootcamp and regularly attend meetups and conferences. Nobody asked my marks in College but some companies did see my college. Those companies were actually not even worth it and would have never allowed me to learn and grow freely. Plus, I believe that if we have a portfolio with some cool projects that we are eligible enough to ask the right amount of money for the work we are supposed to do. 
         <br/>
-        <a href="https://twitter.com/reeversedev/status/1250700784892706818">Link to post ↗</a><br/>
+        <a href="/">Link to post ↗</a><br/>
         <div className={classes.imgSec}>
             <div>
-            <div className={classes.aligCen}><img src={Prateek} alt="Prateek" className={classes.exImage}/></div>
+            {/* <div className={classes.aligCen}><img src={Prateek} alt="Prateek" className={classes.exImage}/></div> */}
             <br/>
             <div><b>~Prateek Gogia-Engineer at Nutanix</b></div>
             </div>
@@ -196,7 +196,7 @@ function Example(){
         <a href="https://twitter.com/thebrokenfinger/status/1250668212120780800">Link to post ↗</a><br/>
         <div className={classes.imgSec}>
             <div>
-            <div className={classes.aligCen}><img src={Yatharth} alt="Yatharth" className={classes.exImage}/></div>
+            {/* <div className={classes.aligCen}><img src={Yatharth} alt="Yatharth" className={classes.exImage}/></div> */}
             <br/>
             <div><b>~Yatharth K, Engineer at PushOwl</b></div>
             </div>
@@ -212,7 +212,7 @@ function Example(){
         <a href="https://twitter.com/anomit/status/1250315078273871877">Link to post ↗</a><br/>
         <div className={classes.imgSec}>
             <div>
-            <div className={classes.aligCen}><img src={Anomit} alt="Anomit" className={classes.exImage}/></div>
+            {/* <div className={classes.aligCen}><img src={Anomit} alt="Anomit" className={classes.exImage}/></div> */}
             <br/>
             <div><b>~Anomit, Co-founder at BlockVigil</b></div>
             </div>
@@ -230,7 +230,7 @@ function Example(){
         <a href="https://twitter.com/Lakshaychauhan0/status/1250302771489689604">Link to post ↗</a><br/>
         <div className={classes.imgSec}>
             <div>
-            <div className={classes.aligCen}><img src={Lakshya} alt="Lakshya" className={classes.exImage}/></div>
+            {/* <div className={classes.aligCen}><img src={Lakshya} alt="Lakshya" className={classes.exImage}/></div> */}
             <br/>
             <div><b>~Lakshay Chauhan, A Passionate Software</b></div>
             </div>
@@ -243,8 +243,13 @@ function Example(){
         The word Gradiot is something that describes many of us and me alike. In hindsight, I can't fathom what was the purpose of going to college. Completely relenting that I am one, and one of the major reasons is the resources available online as well as other people and communities which can help u grow even more. All my money and years for zero value and 75% attendance of rhetorical lectures and plagiarised presentations. I always wonder how I would have spent my 4 years of college if I had the option to chart my journey. Chose the future , not college.
         <br/>
         <a href="https://twitter.com/mohitchordia28/status/1250457785491283969">Link to post ↗</a><br/>
-        <b>~Mohit Chordia, Tech enthusiast</b>
-
+        <div className={classes.imgSec}>
+            <div>
+            {/* <div className={classes.aligCen}><img src={Lakshya} alt="Lakshya" className={classes.exImage}/></div> */}
+            <br/>
+            <div><b>~Mohit Chordia, Tech enthusiast</b></div>
+            </div>
+            </div>
         </TabPanel>
         </Div>
         </Fragment>
