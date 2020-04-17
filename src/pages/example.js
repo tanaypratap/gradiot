@@ -11,6 +11,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
+//Image import
+import Tanay from "../img/influencer/tanay.jpg"
+import Varun from "../img/influencer/varun.jpg"
+import Prateek from "../img/influencer/prateek.jpg"
+import Yatharth from "../img/influencer/yatharth.jpg"
+import Anomit from "../img/influencer/anomit.jpg"
+import Lakshya from "../img/influencer/lakshya.jpg"
+
 const Div = styled.div`
     display: grid;
     grid-template-columns: auto;
@@ -65,6 +73,17 @@ function TabPanel(props) {
       
       backgroundColor: theme.palette.background.paper,
     },
+    exImage:{
+      borderRadius:'50%',
+      height:'150px',
+      width:'150px',
+      boxShadow:'rgb(0,0,0) 2px 5px 5px',
+      alignSelf:'center'
+    },
+    imgSec:{
+      display:'flex',
+      justifyContent:'flex-end'
+    },
   }));
   
 
@@ -91,8 +110,8 @@ function Example(){
             <Tab label="Varun Mayya" {...a11yProps(1)} />
             <Tab label="Prateek Gogia" {...a11yProps(2)} />
             <Tab label="Yatharth K" {...a11yProps(3)} />
-            <Tab label="Lakshay Chauhan" {...a11yProps(4)} />
             <Tab label="Anomit" {...a11yProps(5)} />
+            <Tab label="Lakshay Chauhan" {...a11yProps(4)} />
             <Tab label="Mohit Chordia" {...a11yProps(6)} />
         </Tabs>
         <TabPanel value={value} index={0}>
@@ -110,7 +129,15 @@ function Example(){
             validates my belief and raises a concern in my mind about the future
             of students who would be forced into this senile college system.
             <br/>
-            <b>~Tanay Pratap-Engineer at Microsoft India</b></p>
+            <a href="https://twitter.com/tanaypratap/status/1250300565369671680">Link to post ↗</a><br/>
+            <div className={classes.imgSec}>
+            <div>
+            <div className={classes.aligCen}><img src={Tanay} alt="Tanay" className={classes.exImage}/></div>
+            <br/>
+            <div><b>~Tanay Pratap-Engineer at Microsoft India</b></div>
+            </div>
+            </div>
+            </p>
         </TabPanel>
         <TabPanel value={value} index={1}>
         <p>
@@ -132,14 +159,28 @@ function Example(){
           establish itself as soon as the clients come in. And you'll be making money before 
           you know. Learn to survive. If you survive long enough, you will become successful.
           <br/>
-          <b>~Varun Mayya - Founder and CEO at Avalon Labs</b>
+          <a href="https://twitter.com/VarunMayya/status/1250484795840184321">Link to post ↗</a><br/>
+          <div className={classes.imgSec}>
+            <div>
+            <div className={classes.aligCen}><img src={Varun} alt="Varun" className={classes.exImage}/></div>
+            <br/>
+            <div><b>~Varun Mayya - Founder and CEO at Avalon Labs</b></div>
+            </div>
+            </div>
           </p>
         </TabPanel>
         <TabPanel value={value} index={2}>
         <p> Am I a Gradiot , Yes. Proud of it, <b>"No"</b>. I second the fact that college wasted my money and my time. My advice would be until and unless you are from some big shot college, college does not matter. 
         Rather It's better to invest time and money in your skills if you are a techie or you wanna be a techie. Join an online Bootcamp and regularly attend meetups and conferences. Nobody asked my marks in College but some companies did see my college. Those companies were actually not even worth it and would have never allowed me to learn and grow freely. Plus, I believe that if we have a portfolio with some cool projects that we are eligible enough to ask the right amount of money for the work we are supposed to do. 
         <br/>
-        <b>~Prateek Gogia-Engineer at Nutanix and Host-JSLovers Bangalore</b>
+        <a href="/">Link to post ↗</a><br/>
+        <div className={classes.imgSec}>
+            <div>
+            <div className={classes.aligCen}><img src={Prateek} alt="Prateek" className={classes.exImage}/></div>
+            <br/>
+            <div><b>~Prateek Gogia-Engineer at Nutanix</b></div>
+            </div>
+            </div>
         </p> 
 
         </TabPanel>
@@ -152,10 +193,32 @@ function Example(){
         leave home and lived with relatives until found a job. But in the end, to be able to 
         do something I love daily, every setback becomes worth it.
         <br/>
-        <b>~Yatharth K, Frontend Engineer at PushOwl</b>
+        <a href="https://twitter.com/thebrokenfinger/status/1250668212120780800">Link to post ↗</a><br/>
+        <div className={classes.imgSec}>
+            <div>
+            <div className={classes.aligCen}><img src={Yatharth} alt="Yatharth" className={classes.exImage}/></div>
+            <br/>
+            <div><b>~Yatharth K, Engineer at PushOwl</b></div>
+            </div>
+            </div>
         </p>
         </TabPanel>
+
         <TabPanel value={value} index={4}>
+        We need to get over this deeply entrenched barrier where companies perceive 4 years in college is equal to the ability to follow processes and be disciplined.
+        I seriously believe that rather than stepping in college, one techie aspirant should rather step into open source development and gradually build his portfolio. This portfolio would provide credible proof for his employability rather than a degree earned through copied assignments. 
+        I too wish my 20s were more fruitful and not wasted in becoming a gradiot . Not proud of it, mate.
+        <br/>
+        <a href="https://twitter.com/anomit/status/1250315078273871877">Link to post ↗</a><br/>
+        <div className={classes.imgSec}>
+            <div>
+            <div className={classes.aligCen}><img src={Anomit} alt="Anomit" className={classes.exImage}/></div>
+            <br/>
+            <div><b>~Anomit, Co-founder at BlockVigil</b></div>
+            </div>
+            </div>
+        </TabPanel>
+        <TabPanel value={value} index={5}>
         <p>
         This is the reality today. I have learned more in the last 1.5 months of vacation than 
         in 3 years of college. I don't think college is worth anything now. The best advantage of 
@@ -164,20 +227,23 @@ function Example(){
         something actual by doing and by building.  Degree holds no value if it doesn't have 
         a quality which is the case for most colleges today.
         <br/>
-        <b>~Lakshay Chauhan, A Passionate Software Developer</b>
+        <a href="https://twitter.com/Lakshaychauhan0/status/1250302771489689604">Link to post ↗</a><br/>
+        <div className={classes.imgSec}>
+            <div>
+            <div className={classes.aligCen}><img src={Lakshya} alt="Lakshya" className={classes.exImage}/></div>
+            <br/>
+            <div><b>~Lakshay Chauhan, A Passionate Software</b></div>
+            </div>
+            </div>
         </p>
 
         </TabPanel>
-        <TabPanel value={value} index={5}>
-        We need to get over this deeply entrenched barrier where companies perceive 4 years in college is equal to the ability to follow processes and be disciplined.
-        I seriously believe that rather than stepping in college, one techie aspirant should rather step into open source development and gradually build his portfolio. This portfolio would provide credible proof for his employability rather than a degree earned through copied assignments. 
-        I too wish my 20s were more fruitful and not wasted in becoming a gradiot . Not proud of it, mate.
-        <br/><b>~Anomit, Co-founder at BlockVigil</b>
 
-        </TabPanel>
         <TabPanel value={value} index={6}>
         The word Gradiot is something that describes many of us and me alike. In hindsight, I can't fathom what was the purpose of going to college. Completely relenting that I am one, and one of the major reasons is the resources available online as well as other people and communities which can help u grow even more. All my money and years for zero value and 75% attendance of rhetorical lectures and plagiarised presentations. I always wonder how I would have spent my 4 years of college if I had the option to chart my journey. Chose the future , not college.
-        <br/><b>~Mohit Chordia, Tech enthusiast</b>
+        <br/>
+        <a href="https://twitter.com/mohitchordia28/status/1250457785491283969">Link to post ↗</a><br/>
+        <b>~Mohit Chordia, Tech enthusiast</b>
 
         </TabPanel>
         </Div>
