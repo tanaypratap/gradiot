@@ -16,6 +16,7 @@ module.exports = {
         pages: path.join(__dirname, "src/pages"),
         styles: path.join(__dirname, "src/styles"),
         utils: path.join(__dirname, "src/utils"),
+
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -23,8 +24,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
+
         trackingId: "UA-163929831-1",
       },
     },
   ],
 };
+
