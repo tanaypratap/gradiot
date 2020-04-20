@@ -41,9 +41,9 @@ function Hero() {
       <Header />
       <Section>
         <Div>
-        <h3>🏢 🙅‍♂ 🏃‍♂️</h3>
-        <h3>🏡 👨‍💻 📖</h3>
-        <h3>🆘💴💰⌚️</h3>
+        <h2><span role="img" aria-label="School don't go" >🏢 🙅‍♂ 🏃‍♂️</span></h2>
+        <h2><span role="img" aria-label="Stay home study">🏡 👨‍💻 📖</span></h2>
+        <h2><span role="img" aria-label="Save mony and time">🆘💴💰⌚️</span></h2>
         <h4>Can you guess 🤔 What we are trying to say? If not, scroll down ⬇</h4>
         </Div>
         
