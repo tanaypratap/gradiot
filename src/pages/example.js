@@ -232,7 +232,7 @@ function Example(){
             <div>
             {/* <div className={classes.aligCen}><img src={Lakshya} alt="Lakshya" className={classes.exImage}/></div> */}
             <br/>
-            <div><b>~Lakshay Chauhan, A Passionate Software</b></div>
+            <div><b>~Lakshay Chauhan, A Passionate Software Developer</b></div>
             </div>
             </div>
         </p>
