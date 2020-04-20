@@ -7,15 +7,7 @@ import GlobalWrapper from "components/global-wrapper";
 import Header from "components/article/header";
 import ContentWrapper from "components/article/contentwrapper";
 import Footer from "components/footer";
-import CoverImage from "components/article/coverimage";
-import LargeImage from "components/article/largeimage";
 import FaqComp from "components/faqComp";
-
-import PalettteCoverImage from "img/articles/palettteapp/palettteapp.jpg";
-import PalettteImage1 from "img/articles/palettteapp/palettte1.jpg";
-import PalettteImage2 from "img/articles/palettteapp/palettte2.jpg";
-import PalettteImage3 from "img/articles/palettteapp/palettte3.jpg";
-import PalettteImage4 from "img/articles/palettteapp/palettte4.jpg";
 
 const ques1 = <Link to="/job-without-degree">Read More</Link>;
 const ques2 = <Link to="/abba-nahi-manenge">Read More</Link>;

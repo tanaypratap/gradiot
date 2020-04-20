@@ -8,6 +8,8 @@ import { color, fontSize } from 'styles/theme'
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 
+const more = (<Link to="/alternative"><b>Read More</b></Link>);
+
 const Big = styled.span`
   font-size: ${fontSize.f6};
   color: ${color.grey900};
@@ -53,14 +55,7 @@ function About() {
           1. learning<br/>
           2. building<br/>
           3. networking<br/>
-          Let us now explore each of these three points in depth :<br/>
-
-          1. learning<br/>
-
-	        "Where there is a will , there is a way ."<br/>
-
-          Opting for self learning is a powerful choice that makes one accountable for his own life's success or failure .Remember ,it is necessary to get skills from the right sources ,choosing quality over quantity and following a goal oriented approach towards learning .The process of self learning entails following a comprehensive route map towards upskilling yourself and transforming into an adaptable individual. A powerful step one can take is approach champions of his/her field who have real experience .This could be done through various social media platforms .The mentor can guide you with the "actual" syllabus according to industry demands.This will be a real unfair advantage and skyrocket your chances of success .
-
+          {more}
           </p>
         </Fragment>
       }
