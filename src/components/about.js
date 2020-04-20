@@ -37,20 +37,20 @@ function About() {
           <p>
           A gradiot is a person who has wasted money and 
           time getting zero skills from college while there's an 
-          actual opportunity to learn everything for free .
+          actual opportunity to learn everything for free. 
           </p>
           <Big>
           WHAT IS THE ALTERNATIVE ?
           </Big>
           <p textAlign="justify">
-          The alternative is simple , don't be a gradiot i.e. don't attend college.
-          Rather ,Learn skills , put yourself out and bag an internship by showcasing 
-          your portfolio.When you choose not going to college , the world becomes your 
-          stage and the internet transforms into your holy grail for learning and guidance .<br/>
-          Let's think smartly and analyse the purpose of "good" college .It assembles several 
-          talented individuals under one roof and creates an atmosphere of learning ,building 
-          a portfolio of projects and networking .<br/>
-          And we can achieve this atmosphere even without opting for college in a three step process :<br/>
+          The alternative is simple, don't be a gradiot i.e. don't attend college.
+          Rather, Learn skills, put yourself out and bag an internship by showcasing 
+          your portfolio. When you choose not going to college, the world becomes your 
+          stage and the internet transforms into your holy grail for learning and guidance. <br/>
+          Let's think smartly and analyse the purpose of "good" college. It assembles several 
+          talented individuals under one roof and creates an atmosphere of learning, building 
+          a portfolio of projects and networking. <br/>
+          And we can achieve this atmosphere even without opting for college in a three step process: <br/>
 
           1. learning<br/>
           2. building<br/>
