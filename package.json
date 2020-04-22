@@ -1,8 +1,13 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+
+  "name": "gradiot",
+  "private": true,
+  "description": "The official website for Gradiot wasted 4 years",
+  "version": "0.1.0",
+  "author": "Tanay Pratap <twitter.com/@tanaypratap>",
+  "bugs": {
+    "url": "https://github.com/tanaypratap/gradiot/issues"
+  },
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "gatsby": "^2.20.22",
