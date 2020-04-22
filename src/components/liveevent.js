@@ -34,13 +34,14 @@ function LiveEvent() {
     rightColumn={
       <Fragment>
         <Big>
-        Intro to Gradiot ?
+        Indian Education System!
         </Big>
         <p>
-        Session at 11 AM this Sunday 19th April
+        Session at 12:30 PM, Sunday 19th April,2020
         </p>
-        <p>We will be discussing about gradiots how to avoid becoming a gradiot and AMA session</p>
-        <a href="http://instagram.com/tanaypratap">Link to attend ↗</a>
+        <p>We discussed about Indian education system, what problems are students facing and how to avoid becoming a gradiot followed by an AMA session</p>
+        <a href="https://youtu.be/ZNh35KV1hmQ">Part-1 ↗</a>{" "}
+        <a href="https://youtu.be/POl3dZxWW_E">Part-2 ↗</a>
       </Fragment>
       }
     />
