@@ -29,7 +29,8 @@ function Footer() {
         <a href="https://www.instagram.com/sushil.buragute/">
           Sushil Buragute
         </a>{" "}
-        and <a href="https://www.instagram.com/gkanishk_/">Kanishk Gupta</a>.
+        and <a href="https://www.instagram.com/gkanishk_/">Kanishk Gupta</a>. Content crafted by 
+        {" "} <a href="https://www.instagram.com/reactninja">Aadhar</a>
       </FooterText>
     </Section>
   );
