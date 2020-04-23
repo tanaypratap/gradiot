@@ -193,6 +193,7 @@ class Header extends React.Component {
             <SocialLink
               // href={`mailto:${process.env.GATSBY_EMAIL}`}
               href="https://github.com/tanaypratap/gradiot"
+              target="blank"
               onMouseOver={() => this.showTooltip("Github")}
               onFocus={() => this.showTooltip("Github")}
               onMouseLeave={this.hideTooltip}
