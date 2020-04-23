@@ -10,6 +10,7 @@ import LiveEvent from "components/liveevent";
 import Companies from "components/companies";
 import Footer from "components/footer";
 import Example from "./example";
+import Stories from "./stories"
 
 
 export default class App extends React.Component {
@@ -23,6 +24,9 @@ export default class App extends React.Component {
         </Section>
         <Section>
           <Example />
+        </Section>
+        <Section>
+          <Stories/>
         </Section>
         <Section id={"projects"}>
           <Faq />

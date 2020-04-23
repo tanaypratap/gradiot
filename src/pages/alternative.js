@@ -18,7 +18,7 @@ ${media.sm`
 function Alternative() {
     return (
     <GlobalWrapper>
-    <Header title="Gradiot" />
+    <Header title="About" />
     <Section>
         <ContentWrapper>
         <h2>What is the Alternative?</h2>
