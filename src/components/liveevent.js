@@ -23,10 +23,6 @@ const Big = styled.span`
   `}
 `
 
-const ScenographicsLink = (
-  <a href="http://medium.com/scenographics">Read More on Medium ↗</a>
-)
-
 function LiveEvent() {
   return (
     <TwoColumns

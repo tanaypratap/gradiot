@@ -8,10 +8,10 @@ import About from "components/about";
 import Faq from "components/faq";
 import LiveEvent from "components/liveevent";
 import Companies from "components/companies";
-import Header from "components/header";
 import Footer from "components/footer";
 import Example from "./example";
-import myEg from "../components/myeg";
+import Stories from "./stories"
+
 
 export default class App extends React.Component {
   render() {
@@ -24,6 +24,9 @@ export default class App extends React.Component {
         </Section>
         <Section>
           <Example />
+        </Section>
+        <Section>
+          <Stories/>
         </Section>
         <Section id={"projects"}>
           <Faq />

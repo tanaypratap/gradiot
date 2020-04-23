@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 
 import TwoColumns from "components/twoColumns";
-import Project from "components/project";
 import SectionHeading from "components/sectionHeading";
 
 //Styleing...
@@ -10,7 +9,6 @@ import media from "utils/media-queries";
 
 import { color, fontSize } from "styles/theme";
 
-import ScenographicsLogo from "img/scenographicslogo";
 
 const Big = styled.span`
   font-size: ${fontSize.f6};

@@ -1,8 +1,17 @@
-const path = require('path')
+const path = require("path")
 
 module.exports = {
   siteMetadata: {
-    title: `Gabriel Adorf`,
+    title: `Gradiot`,
+    author: {
+      name: `Tanay Pratap`,
+      summary: `Gradiot an initiative for school and college students`,
+    },
+    description: `Don't waste 4 years of your productive life in college`,
+    siteUrl: `https://gradiot.club`,
+    social: {
+      twitter: `tanaypratap`,
+    },
   },
   plugins: [
     {
@@ -23,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-107072121-1',
+        trackingId: 'UA-163929831-1',
       },
     },
   ],

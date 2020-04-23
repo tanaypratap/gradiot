@@ -4,6 +4,8 @@ import media from "utils/media-queries";
 import { color, fontSize } from "styles/theme";
 
 import Icon from "components/icons";
+import insta from "../img/icon-templates/instagram.svg"
+import github from "../img/icon-templates/github.png"
 
 const Div = styled.div`
   display: flex;
@@ -189,17 +191,20 @@ class Header extends React.Component {
         <div>
           <SocialLinks article={this.props.article}>
             <SocialLink
-              href={`mailto:${process.env.GATSBY_EMAIL}`}
-              onMouseOver={() => this.showTooltip("Mail")}
-              onFocus={() => this.showTooltip("Mail")}
+              // href={`mailto:${process.env.GATSBY_EMAIL}`}
+              href="https://github.com/tanaypratap/gradiot"
+              target="blank"
+              onMouseOver={() => this.showTooltip("Github")}
+              onFocus={() => this.showTooltip("Github")}
               onMouseLeave={this.hideTooltip}
               onBlur={this.hideTooltip}
-              aria-label="Send an email to Gradiot"
+              aria-label="Github Link to Gradiot"
             >
               <SvgWrapper>
-                <InlineSvg>
+                {/* <InlineSvg>
                   <path d="m22.3592881 5.82427054v.59619016c0 .24378184-.1417446.46531584-.3630886.56747461l-8.9485541 4.13010189c-.6647377.306802-1.4305531.306802-2.0952908 0l-8.94855408-4.13010189c-.22134402-.10215877-.36308864-.32369277-.36308864-.56747461v-.59619016c0-.55012277.44596262-.99608539.9960854-.99608539h18.72640542c.5501228 0 .9960854.44596262.9960854.99608539zm-1.25 13.34754436h-18.21857622c-.69035594 0-1.25-.5596441-1.25-1.25v-8.52329148c0-.20710678.16789322-.375.375-.375.05424403 0 .10784237.01176807.15709707.03449228l8.78345405 4.0523453c.6647826.3067049 1.4305981.306593 2.095291-.0003062l8.7755375-4.05180448c.1880319-.08681729.4108411-.00476666.4976584.18326519.0227541.04928162.0345382.1029156.0345382.1571966v8.52310279c0 .6903559-.559644 1.25-1.25 1.25z" />
-                </InlineSvg>
+                </InlineSvg> */}
+                <img src={github} height="24" width="24" alt="Github"/>
               </SvgWrapper>
             </SocialLink>
             <SocialLink
@@ -220,16 +225,17 @@ class Header extends React.Component {
             <SocialLink
               href="https://www.instagram.com/tanaypratap"
               target="blank"
-              onMouseOver={() => this.showTooltip("Dribbble")}
-              onFocus={() => this.showTooltip("Dribbble")}
+              onMouseOver={() => this.showTooltip("Instagram")}
+              onFocus={() => this.showTooltip("Instagram")}
               onMouseLeave={this.hideTooltip}
               onBlur={this.hideTooltip}
               aria-label="Tanay's Instagram Profile"
             >
               <SvgWrapper>
-                <InlineSvg>
+                {/* <InlineSvg>
                   <path d="m22.9838875 12c0 6.0662442-4.9192125 10.9838875-10.9838875 10.9838875-6.06467504 0-10.98388753-4.9176433-10.98388753-10.9838875 0-6.06624417 4.91921249-10.98388753 10.98388753-10.98388753 6.064675 0 10.9838875 4.91764336 10.9838875 10.98388753zm-11.8390616-3.16179048c-.9414761-1.6868113-2.01946618-3.32968705-3.2386777-4.92391987-2.33015328 1.1831216-4.0765914 3.34224006-4.71208775 5.93757577 3.07078113-.02196777 5.72417453-.35933003 7.95076545-1.0136559zm1.5142074 3.02841468c-.1945718-.4393555-.3985583-.8771419-.6135286-1.3102208-2.54512368.8002546-5.58766052 1.2066585-9.10721191 1.2113658l-.01255302.2322308c0 2.203054.7908399 4.2240893 2.1026299 5.7979235 1.98651452-2.98291 4.53634555-4.9647172 7.63066363-5.9312993zm-6.22943341 7.2823175c2.46195994 1.9221803 5.76026441 2.4933424 8.82476911 1.31179-.39542-2.3348607-1.0199325-4.6132328-1.8672609-6.8288398-2.8542416.8504667-5.15458152 2.6894833-6.95750821 5.5170498zm11.10157201-14.32612764c-1.5330368-1.1831216-3.4473715-1.89707429-5.5311719-1.89707429-.7688721 0-1.5126382.10670062-2.22502179.28871933 1.19881289 1.61306234 2.26111169 3.27319849 3.19317299 4.97727018 1.9394407-.82222244 3.4583555-1.94571722 4.5630207-3.36891522zm-3.6858788 5.0604339c.2463529.50839704.4785837 1.02150154.7013997 1.53774424 1.9770997-.3405005 4.1440638-.3201019 6.5008923.0659033-.1145463-2.02731177-.8881258-3.88201964-2.1245977-5.33973843-1.2662853 1.57697243-2.9656496 2.82128997-5.0776943 3.73609089zm1.4341819 3.34537834c.767303 2.0539869 1.3572947 4.1597551 1.7558529 6.3125971 2.0586943-1.3808316 3.5164131-3.5838856 3.9181096-6.1337167-2.06654-.3577609-3.9573378-.4205259-5.6739625-.1788804z" />
-                </InlineSvg>
+                </InlineSvg> */}
+                <img src={insta} height="24" width="24" alt="Instagram"/>
               </SvgWrapper>
             </SocialLink>
           </SocialLinks>
