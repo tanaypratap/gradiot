@@ -110,21 +110,17 @@ function Stories(){
             scrollButtons="auto"            
         >
             <Tab label="Saurav Sen" {...a11yProps(0)} />
+            <Tab label="Zoho" {...a11yProps(1)} />
 
         </Tabs>
         <TabPanel value={value} index={0}>
           <b>From a college drop out to 4000$ Per Month</b>
         <p> I am Saurav Sen a 20-year-old, building businesses, a proud dropout and a Serial Entrepreneur trying out different things every day.
-
-I am from a very small town in Assam. I went to Kolkata after 12 with big dreams to become successful in life and to fulfil my dreams.
-
-I got admission on a well-reputed Private College and was pursuing BCA.
-
-While I was in my 1st year and when I attended my 1st class and I felt like it was the worst experience I ever had in my life.
-
-And on that day itself, I thought this is not made for me I was afraid of telling my parents about this because they have invested 1.5 lakh for me in my admission process including my new laptop.
-
-So I started to research on the Internet about how can I get clients for graphic designing and video editing as I was doing these while I was in class 11 and 12.
+            I am from a very small town in Assam. I went to Kolkata after 12 with big dreams to become successful in life and to fulfil my dreams.
+            I got admission on a well-reputed Private College and was pursuing BCA.
+            While I was in my 1st year and when I attended my 1st class and I felt like it was the worst experience I ever had in my life.
+            And on that day itself, I thought this is not made for me I was afraid of telling my parents about this because they have invested 1.5 lakh for me in my admission process including my new laptop.
+            So I started to research on the Internet about how can I get clients for graphic designing and video editing as I was doing these while I was in class 11 and 12.
 
             <br/>
             {more}
@@ -136,6 +132,25 @@ So I started to research on the Internet about how can I get clients for graphic
             </div>
             </div>
             </p>
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+            <p>
+            Zoho was founded in 1996 by Sridhar Vembu, an alumnus of the Indian Institute of Technology Madras. 
+            The company makes cloud-based products such as Zoho Mail, Zoho Docs (like the one Google offers), 
+            accounting software Zoho Books, and some 30 others which are used by companies such as Amazon, Suzuki, 
+            and Air Canada. It earned Rs1,557 crore (around $240 million) in revenue in the 2016 financial year, 
+            according to company research platform Tofler.<br/>
+            Even as most other firms seek talent from top-ranked tech institutes, this company, through its Zoho 
+            University (ZU) initiative, turns software programmers out of high-school graduates and hires them for 
+            roles at salaries on par with engineering graduates.
+
+            </p>
+            <b><a href="https://qz.com/india/1029316/zoho-corporation-is-building-a-million-dollar-empire-with-an-army-of-high-school-graduates-in-india/">Read More</a></b>
+            <div className={classes.imgSec}>
+            <div>
+              <div><b>~Zoho</b></div>
+            </div>
+            </div>
         </TabPanel>
         </Div>
         </Fragment>
