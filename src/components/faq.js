@@ -5,20 +5,6 @@ import TwoColumns from "components/twoColumns";
 import SectionHeading from "components/sectionHeading";
 import FaqComp from "components/faqComp";
 
-import styled from "styled-components";
-import media from "utils/media-queries";
-import { color, fontSize } from "styles/theme";
-
-// Spammsss
-// import KellerkindLogo from "img/kellerkindlogo";
-// import PalettteAppLogo from "img/palettteapplogo";
-// import LifeTimeLogo from "img/lifetimelogo";
-// import BamLogo from "img/bamlogo";
-// const LifeTimeLink = <Link to="/lifetime">Read More</Link>;
-// const PalettteLink = <Link to="/palettteapp">Read More</Link>;
-// const KellerkindLink = <Link to="/kellerkind">Read More</Link>;
-// const BamLink = <Link to="/bam">Read More</Link>;
-
 const ques1 = <Link to="/job-without-degree">Read More</Link>;
 const ques2 = <Link to="/abba-nahi-manenge">Read More</Link>;
 const ques3 = <Link to="/lazy-gradiot">Read More</Link>;
@@ -28,22 +14,6 @@ const morefaqs = (
     <b>View More FAQs</b>
   </Link>
 );
-
-const fLink = <Link to="/">Read More</Link>;
-const Big = styled.span`
-  font-size: ${fontSize.f6};
-  color: ${color.grey900};
-  font-weight: 700;
-  letter-spacing: -0.4px;
-  line-height: 1.35;
-  ${media.lg`
-    font-size: ${fontSize.f5};
-    letter-spacing: -0.3px;
-  `}
-  ${media.sm`
-    font-size: ${fontSize.f5};
-  `}
-`;
 
 function Faq() {
   return (

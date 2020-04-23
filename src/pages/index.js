@@ -8,10 +8,9 @@ import About from "components/about";
 import Faq from "components/faq";
 import LiveEvent from "components/liveevent";
 import Companies from "components/companies";
-import Header from "components/header";
 import Footer from "components/footer";
 import Example from "./example";
-import myEg from "../components/myeg";
+
 
 export default class App extends React.Component {
   render() {

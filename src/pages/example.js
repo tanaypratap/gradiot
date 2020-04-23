@@ -12,12 +12,12 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
 //Image import
-import Tanay from "../img/influencer/tanay.jpg"
-import Varun from "../img/influencer/varun.jpg"
-import Prateek from "../img/influencer/prateek.jpg"
-import Yatharth from "../img/influencer/yatharth.jpg"
-import Anomit from "../img/influencer/anomit.jpg"
-import Lakshya from "../img/influencer/lakshya.jpg"
+// import Tanay from "../img/influencer/tanay.jpg"
+// import Varun from "../img/influencer/varun.jpg"
+// import Prateek from "../img/influencer/prateek.jpg"
+// import Yatharth from "../img/influencer/yatharth.jpg"
+// import Anomit from "../img/influencer/anomit.jpg"
+// import Lakshya from "../img/influencer/lakshya.jpg"
 
 const Div = styled.div`
     display: grid;

@@ -1,20 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "gatsby-link";
 import media from "utils/media-queries";
 
 import GlobalWrapper from "components/global-wrapper";
 import Header from "components/article/header";
 import ContentWrapper from "components/article/contentwrapper";
 import Footer from "components/footer";
-import CoverImage from "components/article/coverimage";
-import LargeImage from "components/article/largeimage";
 
-import PalettteCoverImage from "img/articles/palettteapp/palettteapp.jpg";
-import PalettteImage1 from "img/articles/palettteapp/palettte1.jpg";
-import PalettteImage2 from "img/articles/palettteapp/palettte2.jpg";
-import PalettteImage3 from "img/articles/palettteapp/palettte3.jpg";
-import PalettteImage4 from "img/articles/palettteapp/palettte4.jpg";
 
 const Section = styled.section`
   margin: 64px 0;

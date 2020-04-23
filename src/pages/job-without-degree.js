@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "gatsby-link";
 import media from "utils/media-queries";
 
 import GlobalWrapper from "components/global-wrapper";

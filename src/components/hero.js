@@ -3,7 +3,6 @@ import styled from "styled-components";
 import media from "utils/media-queries";
 
 import Header from "components/header";
-import Spirograph from "components/spirograph";
 import Section from "components/section"
 
 
@@ -44,7 +43,7 @@ function Hero() {
         <h2><span role="img" aria-label="School don't go" >🏢 🙅‍♂ 🏃‍♂️</span></h2>
         <h2><span role="img" aria-label="Stay home study">🏡 👨‍💻 📖</span></h2>
         <h2><span role="img" aria-label="Save mony and time">🆘💴💰⌚️</span></h2>
-        <h4>Can you guess 🤔 What we are trying to say? If not, scroll down ⬇</h4>
+        <h4>Can you guess <span role="img" aria-label="Think">🤔</span> What we are trying to say? If not, scroll down <span role="img" aria-label="Down">⬇</span></h4>
         </Div>
         
       </Section>
