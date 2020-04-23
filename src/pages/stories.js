@@ -134,6 +134,7 @@ function Stories(){
             </p>
         </TabPanel>
         <TabPanel value={value} index={1}>
+            <b>An Indian IT firm is building a million-dollar empire with an army of high school graduates</b>
             <p>
             Zoho was founded in 1996 by Sridhar Vembu, an alumnus of the Indian Institute of Technology Madras. 
             The company makes cloud-based products such as Zoho Mail, Zoho Docs (like the one Google offers), 
@@ -148,7 +149,7 @@ function Stories(){
             <b><a href="https://qz.com/india/1029316/zoho-corporation-is-building-a-million-dollar-empire-with-an-army-of-high-school-graduates-in-india/">Read More</a></b>
             <div className={classes.imgSec}>
             <div>
-              <div><b>~Zoho</b></div>
+              <div><b>~Zoho Corporation</b></div>
             </div>
             </div>
         </TabPanel>
