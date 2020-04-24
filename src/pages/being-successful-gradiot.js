@@ -28,7 +28,7 @@ function PalettteApp() {
           <p>
             <b>A:</b> Making a decision of your life based upon a handful of
             successful people who got success is utter foolishness. The concept
-            of gradient does not automatically qualify you for success. Rather
+            of gradiot does not automatically qualify you for success. Rather
             it simply saves you a lot of money and time and gives you a better
             path to achieve your goal of bagging a well paying job. It gives you
             a platform of self learning and improving rather than fining you
