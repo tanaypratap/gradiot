@@ -14,6 +14,7 @@ margin: auto;
 
 }
 .imgage:hover{
-    width: 110px;
-    height: 110px;
+opacity:0.75;
+width:118px;
+height:118px;
 }

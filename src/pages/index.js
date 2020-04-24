@@ -28,15 +28,12 @@ export default class App extends React.Component {
         <Section>
           <Stories/>
         </Section>
-        <Section id={"projects"}>
-          <Faq />
-        </Section>
         <Section>
           <LiveEvent />
         </Section>
-        {/* <Section>
-          <myEg />
-        </Section> */}
+        <Section id={"projects"}>
+          <Faq />
+        </Section>
         <Section>
           <Companies />
         </Section>
