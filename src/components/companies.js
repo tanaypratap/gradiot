@@ -39,45 +39,45 @@ function Companies() {
     /> */}
   <div className="container">
   <div className="imgage-container"> 
-    <a href="https://careers.google.com/jobs/results/96053258167952070/">
+    <a href="https://careers.google.com/jobs/results/96053258167952070/" target="_blank" rel="noopener noreferrer">
       <img src={Google} alt="Google" className="imgage"/>
     </a>
-    <a href="https://careers.bankofamerica.com/en-us/job-detail/20020516/ops-sr-analyst-mkts-charlotte-north-carolina-united-states">
+    <a href="https://careers.bankofamerica.com/en-us/job-detail/20020516/ops-sr-analyst-mkts-charlotte-north-carolina-united-states" target="_blank" rel="noopener noreferrer">
       <img src={boa} alt="Boa" className="imgage"/>
     </a>
-    <a href="https://jobs.chipotle.com/job/columbus/national-program-manager/282/15925788">
+    <a href="https://jobs.chipotle.com/job/columbus/national-program-manager/282/15925788" target="_blank" rel="noopener noreferrer">
       <img src={chipotle} alt="Chipotle" className="imgage"/>
     </a>
-    <a href="https://jobs.apple.com/en-us/details/200141302/full-stack-software-engineer?team=OPMFG">
+    <a href="https://jobs.apple.com/en-us/details/200141302/full-stack-software-engineer?team=OPMFG" target="_blank" rel="noopener noreferrer">
       <img src={Apple} alt="Apple" className="imgage"/>
     </a>
-    <a href="https://cta.cadienttalent.com/index.jsp?POSTING_ID=85044896930&locale=en_US&SEQ=positionDetails&applicationName=CostcoNonReqExt">
+    <a href="https://cta.cadienttalent.com/index.jsp?POSTING_ID=85044896930&locale=en_US&SEQ=positionDetails&applicationName=CostcoNonReqExt" target="_blank" rel="noopener noreferrer">
       <img src={costco} alt="costco" className="imgage"/>
     </a>
-    <a href="https://eygbl.referrals.selectminds.com/experienced-opportunities/jobs/sharepoint-migration-and-development-130795">
+    <a href="https://eygbl.referrals.selectminds.com/experienced-opportunities/jobs/sharepoint-migration-and-development-130795" target="_blank" rel="noopener noreferrer">
       <img src={ey} alt="ey" className="imgage"/>
     </a>
-    <a href="https://jobs.hilton.com/us/en/job/HOT06T0M/Assistant-Chief-Enginner">
+    <a href="https://jobs.hilton.com/us/en/job/HOT06T0M/Assistant-Chief-Enginner" target="_blank" rel="noopener noreferrer">
       <img src={hilton} alt="hilton" className="imgage"/></a>
-    <a href="https://careers.homedepot.com/job/10854919/data-scientist-pricing-atlanta-ga/">
+    <a href="https://careers.homedepot.com/job/10854919/data-scientist-pricing-atlanta-ga/" target="_blank" rel="noopener noreferrer">
       <img src={homedept} alt="homedept" className="imgage"/>
     </a>
-    <a href="https://jobs.lowes.com/job/mooresville/senior-it-software-engineer/1627/15989675">
+    <a href="https://jobs.lowes.com/job/mooresville/senior-it-software-engineer/1627/15989675" target="_blank" rel="noopener noreferrer">
       <img src={lowe} alt="lowe" className="imgage"/>
     </a>
-    <a href="https://nordstrom.wd5.myworkdayjobs.com/en-US/nordstrom_careers/job/Columbus-OH/District-Mgr-LP_R-197472">
+    <a href="https://nordstrom.wd5.myworkdayjobs.com/en-US/nordstrom_careers/job/Columbus-OH/District-Mgr-LP_R-197472" target="_blank" rel="noopener noreferrer">
       <img src={nordstrom} alt="nordstrom" className="imgage"/>
     </a>
-    <a href="https://jobsearch.createyourowncareer.com/PRH_US/job/Emeryville-Design-&-Production-Assistant-Ten-Speed-Press-CA-94608/590502801/">
+    <a href="https://jobsearch.createyourowncareer.com/PRH_US/job/Emeryville-Design-&-Production-Assistant-Ten-Speed-Press-CA-94608/590502801/" target="_blank" rel="noopener noreferrer">
       <img src={pen} alt="Penguin" className="imgage"/>
     </a>
-    <a href="https://starbucks.taleo.net/careersection/1000222/jobdetail.ftl?job=200002052&iniurl.src=CWS-11700&tz=GMT%2B05%3A30&tzname=Asia%2FCalcutta">
+    <a href="https://starbucks.taleo.net/careersection/1000222/jobdetail.ftl?job=200002052&iniurl.src=CWS-11700&tz=GMT%2B05%3A30&tzname=Asia%2FCalcutta" target="_blank" rel="noopener noreferrer">
       <img src={starbucks} alt="starbucks" className="imgage"/>
     </a>
-    <a href="https://careers.wholefoodsmarket.com/global/en/job/WHFOGLOBALREQ20200400664/Senior-Endpoint-Systems-Engineer">
+    <a href="https://careers.wholefoodsmarket.com/global/en/job/WHFOGLOBALREQ20200400664/Senior-Endpoint-Systems-Engineer" target="_blank" rel="noopener noreferrer">
       <img src={wholefoods} alt="wholefoods" className="imgage"/>
     </a>
-    <a href="https://jobs.netflix.com/jobs/866978">
+    <a href="https://jobs.netflix.com/jobs/866978" target="_blank" rel="noopener noreferrer">
       <img src={netflix} alt="netflix" className="imgage"/>
     </a>
     <p>Click on the images for more info</p>
