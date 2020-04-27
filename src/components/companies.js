@@ -17,6 +17,7 @@ import nordstrom from "../img/logos/nordstrom.png"
 import pen from "../img/logos/pen.png"
 import starbucks from "../img/logos/starbucks.png"
 import wholefoods from "../img/logos/wholefoods.png"
+import netflix from "../img/logos/netflix.png"
 
 import "./Comp.css"
 
@@ -75,6 +76,9 @@ function Companies() {
     </a>
     <a href="https://careers.wholefoodsmarket.com/global/en/job/WHFOGLOBALREQ20200400664/Senior-Endpoint-Systems-Engineer">
       <img src={wholefoods} alt="wholefoods" className="imgage"/>
+    </a>
+    <a href="https://jobs.netflix.com/jobs/866978">
+      <img src={netflix} alt="netflix" className="imgage"/>
     </a>
     <p>Click on the images for more info</p>
   </div>
